@@ -18,4 +18,3 @@ Uso
 2. Ejecuta el script con Python (por ejemplo, python anlisis_dmarc.py).
 3. Verifica el informe generado en el archivo CSV.
 
-Nota: Asegúrate de reemplazar la ruta de la carpeta de reportes por la ruta correcta en tu sistema.
