@@ -3,10 +3,8 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
-# Ruta a los reportes agregados de DMARC
 reportes_dmarc = glob.glob('/home/gabriel/Documentos/Centro-de-Ciberseguridad/gestion-dominio-gabrielpantoja/reportes/*.xml')
 
-# Función para convertir fechas Unix a formato día-mes-año
 def convertir_fecha(fecha_unix):
     return datetime.utcfromtimestamp(int(fecha_unix)).strftime('%d-%m-%Y')
 
