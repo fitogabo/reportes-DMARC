@@ -8,7 +8,6 @@ reportes_dmarc = glob.glob('/home/gabriel/Documentos/Centro-de-Ciberseguridad/ge
 def convertir_fecha(fecha_unix):
     return datetime.utcfromtimestamp(int(fecha_unix)).strftime('%d-%m-%Y')
 
-# Función para analizar los reportes DMARC
 def analizar_reportes(reportes):
     datos = []
     for reporte in reportes:
